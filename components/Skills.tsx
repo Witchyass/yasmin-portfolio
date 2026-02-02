@@ -1,5 +1,4 @@
 'use client';
-
 import { motion } from 'framer-motion';
 import { Code, Cloud, Database, Wrench } from 'lucide-react';
 import { portfolioData } from '@/lib/portfolio-data';
@@ -31,7 +30,7 @@ export default function Skills() {
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-6">
-          {Object.entries(portfolioData.skills).map(([category, skills], index) => {
+          {Object.entries(portfolioData.skills).map(([category, skills], index: number) => {
             const Icon = skillIcons[category] || Code;
             
             return (
@@ -51,7 +50,7 @@ export default function Skills() {
                 </div>
 
                 <div className="flex flex-wrap gap-2">
-                  {skills.map((skill: string, i) => (
+                  {skills.map((skill: string, i: number) => (
                     <motion.span
                       key={i}
                       initial={{ opacity: 0, scale: 0.8 }}
@@ -68,7 +67,6 @@ export default function Skills() {
             );
           })}
         </div>
-
       </div>
     </section>
   );
