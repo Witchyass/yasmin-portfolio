@@ -25,7 +25,7 @@ export default function Projects() {
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-6">
-          {portfolioData.projects.map((project, index) => (
+          {portfolioData.projects.map((project: any, index: number) => (
             <ProjectCard key={index} project={project} index={index} />
           ))}
         </div>
@@ -131,7 +131,7 @@ function ProjectCard({ project, index }: { project: any; index: number }) {
         <p className="text-gray-700 mb-4">{project.description}</p>
 
         <div className="flex flex-wrap gap-2 mb-4">
-          {project.tech.map((tech: string, i) => (
+          {project.tech.map((tech: string, i: number) => (
             <span
               key={i}
               className="px-3 py-1 bg-primary-100 text-primary-700 rounded-full text-sm font-medium"
@@ -142,7 +142,7 @@ function ProjectCard({ project, index }: { project: any; index: number }) {
         </div>
 
         <div className="space-y-2 flex-1">
-          {project.achievements.map((achievement, i) => (
+          {project.achievements.map((achievement: string, i: number) => (
             <div key={i} className="flex items-start gap-2">
               <Sparkles className="w-4 h-4 text-primary-600 mt-1 flex-shrink-0" />
               <p className="text-sm text-gray-600">{achievement}</p>
