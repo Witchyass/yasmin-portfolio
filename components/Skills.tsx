@@ -51,7 +51,7 @@ export default function Skills() {
                 </div>
 
                 <div className="flex flex-wrap gap-2">
-                  {skills.map((skill, i) => (
+                  {skills.map((skill: string, i) => (
                     <motion.span
                       key={i}
                       initial={{ opacity: 0, scale: 0.8 }}
