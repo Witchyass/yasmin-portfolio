@@ -145,6 +145,7 @@ export default function Hero() {
 
         {/* CTA Buttons */}
         <motion.div
+          id="contact"
           className="flex flex-wrap gap-4 justify-center items-center"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
