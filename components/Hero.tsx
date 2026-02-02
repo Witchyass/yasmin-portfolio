@@ -95,7 +95,7 @@ export default function Hero() {
             }}
           > 
             <img
-              src="/yasmin.jpg"
+              src="/yasmin.JPG"
               alt="Yasmin Sebei"
               className="w-full h-full object-cover"
             />
