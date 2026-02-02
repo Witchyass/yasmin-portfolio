@@ -131,7 +131,7 @@ function ProjectCard({ project, index }: { project: any; index: number }) {
         <p className="text-gray-700 mb-4">{project.description}</p>
 
         <div className="flex flex-wrap gap-2 mb-4">
-          {project.tech.map((tech, i) => (
+          {project.tech.map((tech: string, i) => (
             <span
               key={i}
               className="px-3 py-1 bg-primary-100 text-primary-700 rounded-full text-sm font-medium"
