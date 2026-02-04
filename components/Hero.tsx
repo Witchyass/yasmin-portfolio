@@ -93,13 +93,13 @@ export default function Hero() {
               repeat: Infinity,
               ease: "easeInOut",
             }}
-          > 
+          >
             <img
               src="/yasmin.JPG"
               alt="Yasmin Sebei"
               className="w-full h-full object-cover"
             />
-  
+
           </motion.div>
 
           {/* Floating particles */}
@@ -137,15 +137,14 @@ export default function Hero() {
             Computer Engineering Student • DevOps Enthusiast
           </p>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
-            Passionate about <span className="font-semibold text-primary-600">AI</span>, 
-            <span className="font-semibold text-primary-600"> Cloud Technologies</span>, and 
+            Passionate about <span className="font-semibold text-primary-600">AI</span>,
+            <span className="font-semibold text-primary-600"> Cloud Technologies</span>, and
             <span className="font-semibold text-primary-600"> Building for Social Impact</span> ✨
           </p>
         </motion.div>
 
         {/* CTA Buttons */}
         <motion.div
-          id="contact"
           className="flex flex-wrap gap-4 justify-center items-center"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

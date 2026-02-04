@@ -1,20 +1,17 @@
-# Yasmin Sebei - AI Portfolio
+# Yasmin Sebei - Portfolio
 
-An interactive portfolio website powered by AI chat, built with Next.js and Google Gemini.
+An interactive portfolio website built with Next.js.
 
 ## Features
 
-- ?? AI Chat Assistant - Ask about my skills, projects, and experience
-- ?? Modern, responsive design
-- ? Fast and optimized with Next.js 14
-- ?? Rate-limited chat (20 messages per session)
+- 🎨 Modern, responsive design
+- ⚡ Fast and optimized with Next.js 14
 
 ## Tech Stack
 
 - Next.js 14
 - React
 - TailwindCSS
-- Google Gemini AI
 - Framer Motion
 - Deployed on Vercel
 
@@ -23,7 +20,6 @@ An interactive portfolio website powered by AI chat, built with Next.js and Goog
 ### Prerequisites
 - Node.js 18+
 - pnpm or npm
-- Google Gemini API key (free from [aistudio.google.com](https://aistudio.google.com/app/apikey))
 
 ### Setup
 
@@ -38,12 +34,7 @@ cd yasmin-portfolio
 pnpm install
 ```
 
-3. Add your API key - Create `.env.local`:
-```env
-GOOGLE_GEMINI_API_KEY=your_api_key_here
-```
-
-4. Run development server
+3. Run development server
 ```bash
 pnpm dev
 ```
@@ -54,8 +45,7 @@ Visit `http://localhost:3000`
 
 1. Push to GitHub
 2. Import repository in Vercel
-3. Add `GOOGLE_GEMINI_API_KEY` environment variable
-4. Deploy!
+3. Deploy!
 
 ## Customize
 
