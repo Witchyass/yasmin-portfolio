@@ -67,7 +67,6 @@ export const portfolioData = {
       type: "Internship",
       description: "Designed and implemented automated test cases in Python to validate core software functionalities and system behavior",
       achievements: [
-        "Designed and implemented automated test cases in Python to validate core software functionalities and system behavior",
         "Developed and maintained Python-based test suites to cover repetitive and critical scenarios, improving test coverage and reliability",
         "Analyzed test execution results and logs to identify recurring defects, contributing to a 30% reduction in issue resolution time",
         "Collaborated with developers and QA engineers within an Agile workflow to report issues, validate fixes, and enhance overall software quality"
