@@ -40,7 +40,7 @@ export default function Contact() {
                         delay={0.1}
                     />
                     <ContactCard
-                        href="https://github.com/Witchyass"
+                        href="https://github.com/WitchYas"
                         icon={Github}
                         title="GitHub"
                         value="Check my code"
