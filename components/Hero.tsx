@@ -151,7 +151,7 @@ export default function Hero() {
           transition={{ delay: 0.7 }}
         >
           <a
-            href="https://github.com/Witchyass"
+            href="https://github.com/WitchYas"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 glass rounded-full hover:bg-white/90 transition-all hover:scale-105"
